@@ -43,6 +43,9 @@ dependencies {
 }
 
 test {
+    enabled(true) // 测试开关
     useJUnitPlatform()//支持Junit5测试
+    //include('com/yupop/**') // 包含和排除测试的包路径
+//    exclude('com/yupop/**')
 }
 
